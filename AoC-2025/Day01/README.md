@@ -1,7 +1,6 @@
 ## Build in zagon
 
-Trenutna konfiguracija `CMakeLists.txt` še ne vključuje knjižnice **Google Test (gtest)**.  
-Zaradi tega se projekt najlažje zgradi in zažene neposredno prek ukazne vrstice.
+CMakeLists.txt še ne zajema gtesta. Vse skupaj najlažje buildamo in izvedemo z ukazi v terminalu:
 
 ```bash
 cmake -B build
