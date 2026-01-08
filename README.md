@@ -1,10 +1,13 @@
 ## Build in zagon
 
-CMakeLists.txt še ne zajema gtesta. Vse skupaj najlažje buildamo in izvedemo z ukazi v terminalu:
+Advent of Code 2025
 
-```bash
-cmake -B build
-make -C build
-g++ tests/test_main.cpp functions.cpp -lgtest -lpthread -o tests/tests
-./tests/tests
-./main
+- V input.txt so vhodni podatki, potrebni za izvedbo našega programa
+
+- Program je razdeljen na main.cpp, functions.h in functions.cpp. S tem povečamo preglednosti in lažje izvajamo gtest. Gtest smo uporabili v prvih dveh nalogah.
+
+- V CMakeLists.txt so navodila za prevajanje posameznega dneva.
+
+- Vsaka naloga vsebuje tudi README.md, kjer na na kratko opisan pristop k reševanju.
+
+Avtor: Jošt Paternoster
